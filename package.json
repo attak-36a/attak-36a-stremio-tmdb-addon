@@ -1,0 +1,14 @@
+{
+  "name": "stremio-tmdb-discover",
+  "version": "1.0.0",
+  "description": "Stremio addon - TMDB Discover with Year/Genre/Sort filters",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0",
+    "stremio-addon-sdk": "^1.6.10"
+  }
+}
